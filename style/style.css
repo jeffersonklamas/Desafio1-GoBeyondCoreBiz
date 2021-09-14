@@ -1,0 +1,260 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.containerHeader {
+    align-items: center;
+    position: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 15rem;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.logo {
+    display: inline-block;
+    position: fixed;
+    width: 15%;
+    top: 0em;
+    bottom: 0em;
+    left: 12em;
+    align-items: center;
+}
+
+.naveBar {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    top: 1.5em;
+    position: fixed;
+    z-index: 99;
+    margin: auto 30px auto 440px;
+    align-items: center;
+    margin-left: 520px;
+    /* margin-left: -4px; */
+    /* background-color: #f0f0f0; */
+}
+
+/* nav {
+    width: auto;
+    height: auto;
+    left: 569px;
+    top: 30px;
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    z-index: 99;
+} */
+
+/* nav a {
+    color: #fff;
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;    
+} */
+
+nav li {
+    /* float: left; */
+    list-style: none;
+    margin-left: 20px;
+    font-size: 25px;
+    display: inline-block;
+    align-items: center;
+    /* top: 1em; */
+
+    /* display: inline-block;
+    align-items: center;
+    font-size: 25px;
+    top: 3em;
+    margin-left: 20px;
+    list-style: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight:500;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+    color: #fff;
+    transition: all .3s;
+    text-align: 1px 1px 5p #525252; */
+
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+    color: #fff;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    text-shadow: 1px 1px 5px #eceaea32;
+}
+
+/* img {
+    display: flex;
+    position: fixed;
+    width: 15%;
+    top: 0px;
+    bottom: 0px;
+    left: 150px;
+} */
+
+
+/* header {
+    position: fixed;
+    width: 1220px;
+    max-width: 90%;
+    height: 120px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0px auto;
+} */
+
+
+/* .containerHeader {
+    display: flex;
+    align-items: center;
+} */
+
+/* 
+.containerHeader {
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 120px;
+    bottom: 70px;
+} */
+
+/* .containerHeader .containerMenu {
+    display: flex;
+    text-align: left;
+    line-height: 40px;
+    padding: 10px;
+} */
+
+/* form {
+    display: inline-block;
+    position: fixed;
+    top: 3em;
+    right: 630px;
+    align-items: center;
+    background-color: #000;
+} */
+
+.containerForm {
+    display: inline-block;
+    position: fixed;
+    align-items: center;
+    /* background-position: center; */
+    /* background-color: #000; */
+    top: 3rem;
+    left: 80rem;
+    width: 50%;
+}
+
+.minhaConta {
+    align-items: center;
+    position: fixed;
+    display: inline-block;
+    right: 250px;
+    top: 3em;
+}
+
+/* .endereco, .slider {
+  height: 50px;
+} */
+
+.banner {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.banner li {
+    list-style: none;
+    position: absolute;
+}
+
+.banner img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+
+/* 
+footer {
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    justify-content: center;
+    padding: 85.4px 0px 39.6px 0px;
+    padding-top: 5rem;
+    color: #fff;
+    height: 100%;
+    margin-top: -50px;
+
+    line-height: 50px;
+    padding: 0 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
